@@ -1,0 +1,699 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 7,
+    "identityHash": "1d3e6ebca10c32894199291edbccb659",
+    "entities": [
+      {
+        "tableName": "perfil",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `nome` TEXT NOT NULL, `classe` TEXT NOT NULL, `pesoCorporalKg` REAL NOT NULL, `sexo` TEXT NOT NULL DEFAULT 'OUTRO', `idade` INTEGER NOT NULL DEFAULT 0, `alturaCm` INTEGER NOT NULL DEFAULT 0, `xpTotal` INTEGER NOT NULL, `streak` INTEGER NOT NULL, `melhorStreak` INTEGER NOT NULL, `ultimoDiaTreino` INTEGER NOT NULL, `criadoEm` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "classe",
+            "columnName": "classe",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pesoCorporalKg",
+            "columnName": "pesoCorporalKg",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sexo",
+            "columnName": "sexo",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'OUTRO'"
+          },
+          {
+            "fieldPath": "idade",
+            "columnName": "idade",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "alturaCm",
+            "columnName": "alturaCm",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "xpTotal",
+            "columnName": "xpTotal",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "streak",
+            "columnName": "streak",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "melhorStreak",
+            "columnName": "melhorStreak",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ultimoDiaTreino",
+            "columnName": "ultimoDiaTreino",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "criadoEm",
+            "columnName": "criadoEm",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "series",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `exercicioId` TEXT NOT NULL, `musculo` TEXT NOT NULL, `pesoKg` REAL, `reps` INTEGER, `segundos` INTEGER, `score` REAL NOT NULL, `xpGanho` INTEGER NOT NULL, `epochDay` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL, `valido` INTEGER NOT NULL DEFAULT 1)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exercicioId",
+            "columnName": "exercicioId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "musculo",
+            "columnName": "musculo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pesoKg",
+            "columnName": "pesoKg",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "reps",
+            "columnName": "reps",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "segundos",
+            "columnName": "segundos",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "score",
+            "columnName": "score",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpGanho",
+            "columnName": "xpGanho",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "valido",
+            "columnName": "valido",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_series_exercicioId",
+            "unique": false,
+            "columnNames": [
+              "exercicioId"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_series_exercicioId` ON `${TABLE_NAME}` (`exercicioId`)"
+          },
+          {
+            "name": "index_series_epochDay",
+            "unique": false,
+            "columnNames": [
+              "epochDay"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_series_epochDay` ON `${TABLE_NAME}` (`epochDay`)"
+          },
+          {
+            "name": "index_series_musculo",
+            "unique": false,
+            "columnNames": [
+              "musculo"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_series_musculo` ON `${TABLE_NAME}` (`musculo`)"
+          }
+        ]
+      },
+      {
+        "tableName": "missoes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `epochDay` INTEGER NOT NULL, `tipo` TEXT NOT NULL, `descricao` TEXT NOT NULL, `alvoMusculo` TEXT, `alvoQtd` INTEGER NOT NULL, `progresso` INTEGER NOT NULL, `concluida` INTEGER NOT NULL, `xpRecompensa` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tipo",
+            "columnName": "tipo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "descricao",
+            "columnName": "descricao",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "alvoMusculo",
+            "columnName": "alvoMusculo",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "alvoQtd",
+            "columnName": "alvoQtd",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "progresso",
+            "columnName": "progresso",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "concluida",
+            "columnName": "concluida",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpRecompensa",
+            "columnName": "xpRecompensa",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_missoes_epochDay",
+            "unique": false,
+            "columnNames": [
+              "epochDay"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_missoes_epochDay` ON `${TABLE_NAME}` (`epochDay`)"
+          }
+        ]
+      },
+      {
+        "tableName": "conquistas",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` TEXT NOT NULL, `desbloqueadaEm` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "desbloqueadaEm",
+            "columnName": "desbloqueadaEm",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "temporada_resumo",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`numero` INTEGER NOT NULL, `patentePico` INTEGER NOT NULL, `powerScorePico` REAL NOT NULL, `pontosLigaPico` INTEGER NOT NULL, `encerradaEm` INTEGER NOT NULL, PRIMARY KEY(`numero`))",
+        "fields": [
+          {
+            "fieldPath": "numero",
+            "columnName": "numero",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "patentePico",
+            "columnName": "patentePico",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "powerScorePico",
+            "columnName": "powerScorePico",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pontosLigaPico",
+            "columnName": "pontosLigaPico",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encerradaEm",
+            "columnName": "encerradaEm",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "numero"
+          ]
+        }
+      },
+      {
+        "tableName": "power_snapshot",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`epochDay` INTEGER NOT NULL, `powerScore` REAL NOT NULL, `patente` INTEGER NOT NULL, `pontosLiga` INTEGER NOT NULL, PRIMARY KEY(`epochDay`))",
+        "fields": [
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "powerScore",
+            "columnName": "powerScore",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "patente",
+            "columnName": "patente",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pontosLiga",
+            "columnName": "pontosLiga",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "epochDay"
+          ]
+        }
+      },
+      {
+        "tableName": "preferencias",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `objetivo` TEXT NOT NULL, `experiencia` TEXT NOT NULL, `localPreferido` TEXT NOT NULL, `diasPorSemana` INTEGER NOT NULL, `descansoPadraoSeg` INTEGER NOT NULL, `metaProteinaG` INTEGER NOT NULL, `rotinaAtiva` TEXT, `lembretesAtivos` INTEGER NOT NULL, `condicoes` TEXT NOT NULL DEFAULT '', `horarioTreino` TEXT NOT NULL DEFAULT 'QUALQUER', `metaCalorias` INTEGER NOT NULL DEFAULT 0, `tituloEquipado` TEXT, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "objetivo",
+            "columnName": "objetivo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "experiencia",
+            "columnName": "experiencia",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "localPreferido",
+            "columnName": "localPreferido",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "diasPorSemana",
+            "columnName": "diasPorSemana",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "descansoPadraoSeg",
+            "columnName": "descansoPadraoSeg",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "metaProteinaG",
+            "columnName": "metaProteinaG",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rotinaAtiva",
+            "columnName": "rotinaAtiva",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "lembretesAtivos",
+            "columnName": "lembretesAtivos",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "condicoes",
+            "columnName": "condicoes",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "horarioTreino",
+            "columnName": "horarioTreino",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'QUALQUER'"
+          },
+          {
+            "fieldPath": "metaCalorias",
+            "columnName": "metaCalorias",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "tituloEquipado",
+            "columnName": "tituloEquipado",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "refeicoes",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `epochDay` INTEGER NOT NULL, `nome` TEXT NOT NULL, `proteinaG` REAL NOT NULL, `calorias` REAL NOT NULL, `carboG` REAL NOT NULL, `gorduraG` REAL NOT NULL, `porcaoG` REAL NOT NULL, `barcode` TEXT, `timestamp` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "proteinaG",
+            "columnName": "proteinaG",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calorias",
+            "columnName": "calorias",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "carboG",
+            "columnName": "carboG",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "gorduraG",
+            "columnName": "gorduraG",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "porcaoG",
+            "columnName": "porcaoG",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "barcode",
+            "columnName": "barcode",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_refeicoes_epochDay",
+            "unique": false,
+            "columnNames": [
+              "epochDay"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_refeicoes_epochDay` ON `${TABLE_NAME}` (`epochDay`)"
+          }
+        ]
+      },
+      {
+        "tableName": "rotina",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nome` TEXT NOT NULL, `itensJson` TEXT NOT NULL, `criadoEm` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "itensJson",
+            "columnName": "itensJson",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "criadoEm",
+            "columnName": "criadoEm",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      },
+      {
+        "tableName": "treino_sessao",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `epochDay` INTEGER NOT NULL, `nome` TEXT NOT NULL, `xpGanho` INTEGER NOT NULL, `series` INTEGER NOT NULL, `exercicios` INTEGER NOT NULL, `recordes` INTEGER NOT NULL, `duracaoSeg` INTEGER NOT NULL, `encerradaEm` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nome",
+            "columnName": "nome",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "xpGanho",
+            "columnName": "xpGanho",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "series",
+            "columnName": "series",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exercicios",
+            "columnName": "exercicios",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "recordes",
+            "columnName": "recordes",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "duracaoSeg",
+            "columnName": "duracaoSeg",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "encerradaEm",
+            "columnName": "encerradaEm",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_treino_sessao_epochDay",
+            "unique": false,
+            "columnNames": [
+              "epochDay"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_treino_sessao_epochDay` ON `${TABLE_NAME}` (`epochDay`)"
+          }
+        ]
+      },
+      {
+        "tableName": "peso_corporal",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`epochDay` INTEGER NOT NULL, `pesoKg` REAL NOT NULL, `timestamp` INTEGER NOT NULL, PRIMARY KEY(`epochDay`))",
+        "fields": [
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pesoKg",
+            "columnName": "pesoKg",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "epochDay"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1d3e6ebca10c32894199291edbccb659')"
+    ]
+  }
+}

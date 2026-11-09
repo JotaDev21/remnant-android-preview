@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+: regras para backup em nuvem e transferência aparelho→aparelho.
+  Mesma política de backup_rules.xml — credenciais, sessão remota, treino em andamento e
+  fotos corporais nunca saem do aparelho. O banco local e as preferências são preservados.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="supabase_auth.xml" />
+        <exclude domain="sharedpref" path="auth_pkce.xml" />
+        <exclude domain="sharedpref" path="circle_comment_drafts.xml" />
+        <exclude domain="sharedpref" path="active_workout_state.xml" />
+        <exclude domain="file" path="progress_photos" />
+        <exclude domain="file" path="gemini.key" />
+        <exclude domain="file" path="mentor.token" />
+        <exclude domain="database" path="ironquest.db-wal" />
+        <exclude domain="database" path="ironquest.db-shm" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="supabase_auth.xml" />
+        <exclude domain="sharedpref" path="auth_pkce.xml" />
+        <exclude domain="sharedpref" path="circle_comment_drafts.xml" />
+        <exclude domain="sharedpref" path="active_workout_state.xml" />
+        <exclude domain="file" path="gemini.key" />
+        <exclude domain="file" path="mentor.token" />
+        <exclude domain="database" path="ironquest.db-wal" />
+        <exclude domain="database" path="ironquest.db-shm" />
+    </device-transfer>
+</data-extraction-rules>

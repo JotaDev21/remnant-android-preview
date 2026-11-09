@@ -1,0 +1,2586 @@
+{
+  "exercicios": [
+    {
+      "id": "Alternate_Hammer_Curl",
+      "nome": "Rosca Martelo Alternada",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure os halteres ao lado do corpo com as palmas voltadas para dentro. Flexione um cotovelo por vez sem balançar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Alternate_Hammer_Curl/0.jpg",
+        "Alternate_Hammer_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca martelo alternada na academia"
+    },
+    {
+      "id": "Alternate_Incline_Dumbbell_Curl",
+      "nome": "Rosca Alternada no Banco Inclinado",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente-se no banco inclinado com os braços soltos. Suba um halter por vez sem levar os ombros para a frente.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Alternate_Incline_Dumbbell_Curl/0.jpg",
+        "Alternate_Incline_Dumbbell_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca alternada no banco inclinado na academia"
+    },
+    {
+      "id": "Alternating_Cable_Shoulder_Press",
+      "nome": "Desenvolvimento Alternado na Polia",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "TRICEPS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste as polias baixas e fique entre elas. Empurre uma mão acima da cabeça por vez, mantendo o tronco estável.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.07,
+        0.1,
+        0.14,
+        0.18,
+        0.23,
+        0.29,
+        0.36
+      ],
+      "imagens": [
+        "Alternating_Cable_Shoulder_Press/0.jpg",
+        "Alternating_Cable_Shoulder_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer desenvolvimento alternado na polia na academia"
+    },
+    {
+      "id": "Alternating_Deltoid_Raise",
+      "nome": "Elevação Lateral Alternada com Halteres",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deixe os halteres ao lado do corpo. Eleve um braço por vez até a linha dos ombros, sem impulso.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Alternating_Deltoid_Raise/0.jpg",
+        "Alternating_Deltoid_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação lateral alternada com halteres na academia"
+    },
+    {
+      "id": "Around_The_Worlds",
+      "nome": "Crucifixo Circular com Halteres",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "OMBROS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco com halteres leves. Faça um arco amplo e controlado com os braços, preservando leve flexão dos cotovelos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "Around_The_Worlds/0.jpg",
+        "Around_The_Worlds/1.jpg"
+      ],
+      "videoQuery": "como fazer crucifixo circular com halteres na academia"
+    },
+    {
+      "id": "Barbell_Ab_Rollout_-_On_Knees",
+      "nome": "Roda Abdominal com Barra Ajoelhado",
+      "musculo": "ABDOMEN",
+      "musculosSecundarios": [
+        "COSTAS",
+        "OMBROS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.8,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajoelhe-se e segure a barra com anilhas que girem. Role para a frente sem deixar a lombar cair e volte contraindo o abdômen.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.25,
+        0.4,
+        0.55,
+        0.72,
+        0.9,
+        1.15,
+        1.5
+      ],
+      "imagens": [
+        "Barbell_Ab_Rollout_-_On_Knees/0.jpg",
+        "Barbell_Ab_Rollout_-_On_Knees/1.jpg"
+      ],
+      "videoQuery": "como fazer roda abdominal com barra ajoelhado na academia"
+    },
+    {
+      "id": "Barbell_Rear_Delt_Row",
+      "nome": "Remada Alta Curvada para Posterior de Ombro",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "BICEPS",
+        "COSTAS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Incline o tronco com a coluna neutra. Puxe a barra em direção ao alto do peito, abrindo os cotovelos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.35,
+        0.5,
+        0.65,
+        0.8,
+        0.95,
+        1.1,
+        1.3
+      ],
+      "imagens": [
+        "Barbell_Rear_Delt_Row/0.jpg",
+        "Barbell_Rear_Delt_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada alta curvada para posterior de ombro na academia"
+    },
+    {
+      "id": "Barbell_Shoulder_Press",
+      "nome": "Desenvolvimento com Barra em Pé",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "PEITO",
+        "TRICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure a barra à frente dos ombros. Empurre acima da cabeça sem arquear demais a lombar.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.35,
+        0.5,
+        0.65,
+        0.8,
+        0.95,
+        1.1,
+        1.3
+      ],
+      "imagens": [
+        "Barbell_Shoulder_Press/0.jpg",
+        "Barbell_Shoulder_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer desenvolvimento com barra em pé na academia"
+    },
+    {
+      "id": "Barbell_Side_Split_Squat",
+      "nome": "Agachamento Lateral com Barra",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Apoie a barra de forma estável. Dê um passo lateral, flexione a perna de apoio e retorne ao centro.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Barbell_Side_Split_Squat/0.jpg",
+        "Barbell_Side_Split_Squat/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento lateral com barra na academia"
+    },
+    {
+      "id": "Barbell_Squat_To_A_Bench",
+      "nome": "Agachamento com Barra até o Banco",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.8,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Posicione um banco atrás de você como referência. Agache de modo controlado até tocá-lo levemente e suba.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Barbell_Squat_To_A_Bench/0.jpg",
+        "Barbell_Squat_To_A_Bench/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento com barra até o banco na academia"
+    },
+    {
+      "id": "Bent-Arm_Dumbbell_Pullover",
+      "nome": "Pullover com Halter e Cotovelos Flexionados",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "COSTAS",
+        "OMBROS",
+        "TRICEPS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco e segure o halter acima do peito. Leve-o para trás da cabeça mantendo os cotovelos levemente flexionados.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "Bent-Arm_Dumbbell_Pullover/0.jpg",
+        "Bent-Arm_Dumbbell_Pullover/1.jpg"
+      ],
+      "videoQuery": "como fazer pullover com halter e cotovelos flexionados na academia"
+    },
+    {
+      "id": "Bent_Over_Low-Pulley_Side_Lateral",
+      "nome": "Elevação Posterior na Polia Baixa Curvado",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "COSTAS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Incline o tronco e segure o cabo da polia baixa. Abra o braço para o lado sem girar o corpo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.07,
+        0.1,
+        0.14,
+        0.18,
+        0.23,
+        0.29,
+        0.36
+      ],
+      "imagens": [
+        "Bent_Over_Low-Pulley_Side_Lateral/0.jpg",
+        "Bent_Over_Low-Pulley_Side_Lateral/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação posterior na polia baixa curvado na academia"
+    },
+    {
+      "id": "Bent_Over_One-Arm_Long_Bar_Row",
+      "nome": "Remada Unilateral na Barra Landmine",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Apoie uma ponta da barra e fique ao lado dela. Puxe a outra extremidade em direção ao quadril com um braço.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.55,
+        0.75,
+        0.95,
+        1.15,
+        1.4,
+        1.6,
+        1.85
+      ],
+      "imagens": [
+        "Bent_Over_One-Arm_Long_Bar_Row/0.jpg",
+        "Bent_Over_One-Arm_Long_Bar_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada unilateral na barra landmine na academia"
+    },
+    {
+      "id": "Bodyweight_Mid_Row",
+      "nome": "Remada Invertida na Barra Fixa Baixa",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Acessório",
+      "local": "ACADEMIA",
+      "modo": "REPS",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste a barra na altura da cintura e pendure o corpo abaixo dela. Puxe o peito até a barra mantendo o corpo alinhado.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        4,
+        9,
+        15,
+        22,
+        30,
+        40,
+        52
+      ],
+      "imagens": [
+        "Bodyweight_Mid_Row/0.jpg",
+        "Bodyweight_Mid_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada invertida na barra fixa baixa na academia"
+    },
+    {
+      "id": "Cable_Deadlifts",
+      "nome": "Levantamento Terra na Polia Baixa",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO",
+        "GLUTEOS",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure o cabo entre as pernas com a polia baixa. Estenda quadril e joelhos sem arredondar as costas.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.4,
+        0.55,
+        0.7,
+        0.85,
+        1.05,
+        1.25,
+        1.5
+      ],
+      "imagens": [
+        "Cable_Deadlifts/0.jpg",
+        "Cable_Deadlifts/1.jpg"
+      ],
+      "videoQuery": "como fazer levantamento terra na polia baixa na academia"
+    },
+    {
+      "id": "Cable_Hip_Adduction",
+      "nome": "Adução de Quadril na Polia",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Prenda a tornozeleira à polia baixa. Cruze a perna de trabalho à frente do corpo sem inclinar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.2,
+        0.28,
+        0.38,
+        0.48,
+        0.6,
+        0.74
+      ],
+      "imagens": [
+        "Cable_Hip_Adduction/0.jpg",
+        "Cable_Hip_Adduction/1.jpg"
+      ],
+      "videoQuery": "como fazer adução de quadril na polia na academia"
+    },
+    {
+      "id": "Cable_Iron_Cross",
+      "nome": "Crucifixo em Pé na Polia Alta",
+      "musculo": "PEITO",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Fique entre duas polias altas. Traga os braços à frente e para baixo em arco, sem deixar os ombros rodarem.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.1,
+        0.175,
+        0.25,
+        0.325,
+        0.425,
+        0.525,
+        0.65
+      ],
+      "imagens": [
+        "Cable_Iron_Cross/0.jpg",
+        "Cable_Iron_Cross/1.jpg"
+      ],
+      "videoQuery": "como fazer crucifixo em pé na polia alta na academia"
+    },
+    {
+      "id": "Cable_Rope_Rear-Delt_Rows",
+      "nome": "Remada com Corda para Posterior de Ombro",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "BICEPS",
+        "COSTAS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste a polia na altura do rosto. Puxe a corda em direção à face abrindo os cotovelos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.07,
+        0.1,
+        0.14,
+        0.18,
+        0.23,
+        0.29,
+        0.36
+      ],
+      "imagens": [
+        "Cable_Rope_Rear-Delt_Rows/0.jpg",
+        "Cable_Rope_Rear-Delt_Rows/1.jpg"
+      ],
+      "videoQuery": "como fazer remada com corda para posterior de ombro na academia"
+    },
+    {
+      "id": "Cable_Shrugs",
+      "nome": "Encolhimento na Polia Baixa",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure o cabo diante do corpo. Eleve os ombros em direção às orelhas e desça lentamente.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Cable_Shrugs/0.jpg",
+        "Cable_Shrugs/1.jpg"
+      ],
+      "videoQuery": "como fazer encolhimento na polia baixa na academia"
+    },
+    {
+      "id": "Close-Grip_EZ-Bar_Press",
+      "nome": "Supino Fechado com Barra W",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [
+        "PEITO",
+        "OMBROS"
+      ],
+      "equipamento": "Barra W",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco e segure a barra W com pegada confortável e estreita. Desça até perto do peito e empurre estendendo os cotovelos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.2,
+        0.3,
+        0.4,
+        0.52,
+        0.64,
+        0.76,
+        0.9
+      ],
+      "imagens": [
+        "Close-Grip_EZ-Bar_Press/0.jpg",
+        "Close-Grip_EZ-Bar_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer supino fechado com barra w na academia"
+    },
+    {
+      "id": "Cuban_Press",
+      "nome": "Desenvolvimento Cubano com Halteres",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "COSTAS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Com halteres leves, eleve os cotovelos até a linha dos ombros. Rode os antebraços para cima e pressione sem perder o controle.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Cuban_Press/0.jpg",
+        "Cuban_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer desenvolvimento cubano com halteres na academia"
+    },
+    {
+      "id": "Decline_Dumbbell_Triceps_Extension",
+      "nome": "Tríceps Testa Declinado com Halteres",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite no banco declinado com os braços acima do peito. Flexione só os cotovelos, levando os halteres para trás da cabeça.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.18,
+        0.25,
+        0.33,
+        0.42,
+        0.52,
+        0.65
+      ],
+      "imagens": [
+        "Decline_Dumbbell_Triceps_Extension/0.jpg",
+        "Decline_Dumbbell_Triceps_Extension/1.jpg"
+      ],
+      "videoQuery": "como fazer tríceps testa declinado com halteres na academia"
+    },
+    {
+      "id": "Dumbbell_One-Arm_Shoulder_Press",
+      "nome": "Desenvolvimento Unilateral com Halter",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "TRICEPS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure um halter ao lado do ombro e estabilize o tronco. Empurre acima da cabeça sem inclinar o corpo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Dumbbell_One-Arm_Shoulder_Press/0.jpg",
+        "Dumbbell_One-Arm_Shoulder_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer desenvolvimento unilateral com halter na academia"
+    },
+    {
+      "id": "Dumbbell_One-Arm_Upright_Row",
+      "nome": "Remada Alta Unilateral com Halter",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "BICEPS",
+        "COSTAS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure o halter à frente da coxa. Puxe-o perto do corpo até a altura do peito sem elevar demais o ombro.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Dumbbell_One-Arm_Upright_Row/0.jpg",
+        "Dumbbell_One-Arm_Upright_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada alta unilateral com halter na academia"
+    },
+    {
+      "id": "Dumbbell_Prone_Incline_Curl",
+      "nome": "Rosca de Bíceps Deitado no Banco Inclinado",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite de bruços no banco inclinado com os braços pendentes. Flexione os cotovelos mantendo o braço superior parado.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Dumbbell_Prone_Incline_Curl/0.jpg",
+        "Dumbbell_Prone_Incline_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca de bíceps deitado no banco inclinado na academia"
+    },
+    {
+      "id": "Dumbbell_Squat_To_A_Bench",
+      "nome": "Agachamento com Halteres até o Banco",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure halteres ao lado do corpo e fique diante de um banco. Desça até tocá-lo de leve e levante.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.2,
+        0.275,
+        0.35,
+        0.45,
+        0.55,
+        0.7
+      ],
+      "imagens": [
+        "Dumbbell_Squat_To_A_Bench/0.jpg",
+        "Dumbbell_Squat_To_A_Bench/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento com halteres até o banco na academia"
+    },
+    {
+      "id": "Elevated_Back_Lunge",
+      "nome": "Afundo Reverso com Pé Elevado",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Fique à frente de uma plataforma baixa. Leve um pé para trás, flexione as pernas e volte pressionando o pé da frente.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Elevated_Back_Lunge/0.jpg",
+        "Elevated_Back_Lunge/1.jpg"
+      ],
+      "videoQuery": "como fazer afundo reverso com pé elevado na academia"
+    },
+    {
+      "id": "Elevated_Cable_Rows",
+      "nome": "Remada Alta Sentada na Polia",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Sente-se em frente à polia e segure o puxador. Traga-o em direção ao tronco, aproximando as escápulas.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Elevated_Cable_Rows/0.jpg",
+        "Elevated_Cable_Rows/1.jpg"
+      ],
+      "videoQuery": "como fazer remada alta sentada na polia na academia"
+    },
+    {
+      "id": "External_Rotation_with_Cable",
+      "nome": "Rotação Externa de Ombro na Polia",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deixe a polia na altura do cotovelo. Com o cotovelo junto ao tronco, rode o antebraço para fora.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.07,
+        0.1,
+        0.14,
+        0.18,
+        0.23,
+        0.29,
+        0.36
+      ],
+      "imagens": [
+        "External_Rotation_with_Cable/0.jpg",
+        "External_Rotation_with_Cable/1.jpg"
+      ],
+      "videoQuery": "como fazer rotação externa de ombro na polia na academia"
+    },
+    {
+      "id": "Flexor_Incline_Dumbbell_Curls",
+      "nome": "Rosca de Bíceps com Punho Flexionado no Banco Inclinado",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente no banco inclinado com halteres leves. Flexione os cotovelos sem tirar os braços da posição inicial.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Flexor_Incline_Dumbbell_Curls/0.jpg",
+        "Flexor_Incline_Dumbbell_Curls/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca de bíceps com punho flexionado no banco inclinado na academia"
+    },
+    {
+      "id": "Front_Barbell_Squat_To_A_Bench",
+      "nome": "Agachamento Frontal até o Banco",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.8,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Mantenha a barra na frente dos ombros e um banco atrás. Agache até tocá-lo suavemente e suba com o tronco ereto.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Front_Barbell_Squat_To_A_Bench/0.jpg",
+        "Front_Barbell_Squat_To_A_Bench/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento frontal até o banco na academia"
+    },
+    {
+      "id": "Front_Incline_Dumbbell_Raise",
+      "nome": "Elevação Frontal no Banco Inclinado",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie o peito em um banco inclinado com halteres leves. Eleve os braços à frente sem embalar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Front_Incline_Dumbbell_Raise/0.jpg",
+        "Front_Incline_Dumbbell_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação frontal no banco inclinado na academia"
+    },
+    {
+      "id": "Hammer_Grip_Incline_DB_Bench_Press",
+      "nome": "Supino Inclinado com Halteres em Pegada Neutra",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "OMBROS",
+        "TRICEPS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco inclinado com as palmas voltadas uma para a outra. Desça os halteres ao lado do peito e empurre.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "Hammer_Grip_Incline_DB_Bench_Press/0.jpg",
+        "Hammer_Grip_Incline_DB_Bench_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer supino inclinado com halteres em pegada neutra na academia"
+    },
+    {
+      "id": "Incline_Bench_Pull",
+      "nome": "Remada com Barra no Banco Inclinado",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "OMBROS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie o peito em um banco inclinado. Puxe a barra em direção ao banco sem tirar o tronco do apoio.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.55,
+        0.75,
+        0.95,
+        1.15,
+        1.4,
+        1.6,
+        1.85
+      ],
+      "imagens": [
+        "Incline_Bench_Pull/0.jpg",
+        "Incline_Bench_Pull/1.jpg"
+      ],
+      "videoQuery": "como fazer remada com barra no banco inclinado na academia"
+    },
+    {
+      "id": "Incline_Dumbbell_Bench_With_Palms_Facing_In",
+      "nome": "Supino Inclinado com Halteres e Palmas para Dentro",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "OMBROS",
+        "TRICEPS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste o banco inclinado e mantenha as palmas voltadas entre si. Desça junto ao peito e pressione sem bater os halteres.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "Incline_Dumbbell_Bench_With_Palms_Facing_In/0.jpg",
+        "Incline_Dumbbell_Bench_With_Palms_Facing_In/1.jpg"
+      ],
+      "videoQuery": "como fazer supino inclinado com halteres e palmas para dentro na academia"
+    },
+    {
+      "id": "Incline_Dumbbell_Flyes_-_With_A_Twist",
+      "nome": "Crucifixo Inclinado com Rotação",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "OMBROS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco inclinado com halteres leves. Abra os braços em arco e feche com leve rotação dos punhos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "Incline_Dumbbell_Flyes_-_With_A_Twist/0.jpg",
+        "Incline_Dumbbell_Flyes_-_With_A_Twist/1.jpg"
+      ],
+      "videoQuery": "como fazer crucifixo inclinado com rotação na academia"
+    },
+    {
+      "id": "Incline_Inner_Biceps_Curl",
+      "nome": "Rosca Inclinada com Pegada Aberta",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente-se no banco inclinado e deixe os braços ao lado do corpo. Flexione os cotovelos mantendo os ombros estáveis.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Incline_Inner_Biceps_Curl/0.jpg",
+        "Incline_Inner_Biceps_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca inclinada com pegada aberta na academia"
+    },
+    {
+      "id": "Inverted_Row_with_Straps",
+      "nome": "Remada Invertida em Fitas de Suspensão",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Acessório",
+      "local": "ACADEMIA",
+      "modo": "REPS",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure as fitas e incline o corpo para trás. Puxe o peito até as mãos mantendo quadril e tronco alinhados.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        4,
+        9,
+        15,
+        22,
+        30,
+        40,
+        52
+      ],
+      "imagens": [
+        "Inverted_Row_with_Straps/0.jpg",
+        "Inverted_Row_with_Straps/1.jpg"
+      ],
+      "videoQuery": "como fazer remada invertida em fitas de suspensão na academia"
+    },
+    {
+      "id": "Kneeling_High_Pulley_Row",
+      "nome": "Remada Ajoelhada na Polia Alta",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajoelhe-se diante da polia alta. Puxe o cabo em direção ao peito sem jogar o tronco para trás.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Kneeling_High_Pulley_Row/0.jpg",
+        "Kneeling_High_Pulley_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada ajoelhada na polia alta na academia"
+    },
+    {
+      "id": "Kneeling_Single-Arm_High_Pulley_Row",
+      "nome": "Remada Unilateral Ajoelhada na Polia Alta",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajoelhe-se de frente para a polia alta. Puxe o cabo com um braço em direção à costela e retorne devagar.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Kneeling_Single-Arm_High_Pulley_Row/0.jpg",
+        "Kneeling_Single-Arm_High_Pulley_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada unilateral ajoelhada na polia alta na academia"
+    },
+    {
+      "id": "Landmine_180s",
+      "nome": "Rotação de Tronco na Barra Landmine",
+      "musculo": "ABDOMEN",
+      "musculosSecundarios": [
+        "GLUTEOS",
+        "COSTAS",
+        "OMBROS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure a ponta livre da barra à frente do corpo. Leve-a de um lado ao outro girando o tronco com controle.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.25,
+        0.4,
+        0.55,
+        0.72,
+        0.9,
+        1.15,
+        1.5
+      ],
+      "imagens": [
+        "Landmine_180s/0.jpg",
+        "Landmine_180s/1.jpg"
+      ],
+      "videoQuery": "como fazer rotação de tronco na barra landmine na academia"
+    },
+    {
+      "id": "Landmine_Linear_Jammer",
+      "nome": "Desenvolvimento Explosivo na Barra Landmine",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "ABDOMEN",
+        "PANTURRILHA",
+        "PEITO",
+        "POSTERIOR",
+        "QUADRICEPS",
+        "TRICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure a ponta livre da barra junto ao ombro. Estenda braço e quadril para empurrá-la à frente e acima.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.35,
+        0.5,
+        0.65,
+        0.8,
+        0.95,
+        1.1,
+        1.3
+      ],
+      "imagens": [
+        "Landmine_Linear_Jammer/0.jpg",
+        "Landmine_Linear_Jammer/1.jpg"
+      ],
+      "videoQuery": "como fazer desenvolvimento explosivo na barra landmine na academia"
+    },
+    {
+      "id": "Leverage_Deadlift",
+      "nome": "Levantamento Terra na Máquina Articulada",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste a máquina para começar com a coluna neutra. Estenda quadril e joelhos, depois retorne de forma controlada.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.8,
+        1.1,
+        1.4,
+        1.7,
+        2.05,
+        2.45,
+        2.85
+      ],
+      "imagens": [
+        "Leverage_Deadlift/0.jpg",
+        "Leverage_Deadlift/1.jpg"
+      ],
+      "videoQuery": "como fazer levantamento terra na máquina articulada na academia"
+    },
+    {
+      "id": "Low_Pulley_Row_To_Neck",
+      "nome": "Remada na Polia Baixa para o Pescoço",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "BICEPS",
+        "COSTAS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Sente-se diante da polia baixa e use carga leve. Puxe em direção à parte alta do peito abrindo os cotovelos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.07,
+        0.1,
+        0.14,
+        0.18,
+        0.23,
+        0.29,
+        0.36
+      ],
+      "imagens": [
+        "Low_Pulley_Row_To_Neck/0.jpg",
+        "Low_Pulley_Row_To_Neck/1.jpg"
+      ],
+      "videoQuery": "como fazer remada na polia baixa para o pescoço na academia"
+    },
+    {
+      "id": "Lying_Cambered_Barbell_Row",
+      "nome": "Remada com Barra Deitado no Banco",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite de bruços em um banco alto com os braços pendentes. Puxe a barra para a parte inferior do peito.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.55,
+        0.75,
+        0.95,
+        1.15,
+        1.4,
+        1.6,
+        1.85
+      ],
+      "imagens": [
+        "Lying_Cambered_Barbell_Row/0.jpg",
+        "Lying_Cambered_Barbell_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada com barra deitado no banco na academia"
+    },
+    {
+      "id": "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head",
+      "nome": "Tríceps Testa com Barra atrás da Cabeça",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite no banco com pegada fechada. Flexione os cotovelos levando a barra para trás da cabeça e estenda.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.45,
+        0.65,
+        0.85,
+        1.1,
+        1.35,
+        1.55,
+        1.8
+      ],
+      "imagens": [
+        "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head/0.jpg",
+        "Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head/1.jpg"
+      ],
+      "videoQuery": "como fazer tríceps testa com barra atrás da cabeça na academia"
+    },
+    {
+      "id": "Lying_One-Arm_Lateral_Raise",
+      "nome": "Elevação Lateral Unilateral Deitado",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite de lado e segure um halter leve. Eleve o braço sem girar o tronco e desça devagar.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Lying_One-Arm_Lateral_Raise/0.jpg",
+        "Lying_One-Arm_Lateral_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação lateral unilateral deitado na academia"
+    },
+    {
+      "id": "Lying_Rear_Delt_Raise",
+      "nome": "Elevação Posterior Deitado",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite de bruços no banco com halteres leves. Abra os braços para os lados até a linha dos ombros.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Lying_Rear_Delt_Raise/0.jpg",
+        "Lying_Rear_Delt_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação posterior deitado na academia"
+    },
+    {
+      "id": "Narrow_Stance_Squats",
+      "nome": "Agachamento com Barra e Pés Juntos",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Fique com os pés mais próximos que a largura dos ombros. Agache preservando a postura e o alinhamento dos joelhos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Narrow_Stance_Squats/0.jpg",
+        "Narrow_Stance_Squats/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento com barra e pés juntos na academia"
+    },
+    {
+      "id": "One-Arm_Flat_Bench_Dumbbell_Flye",
+      "nome": "Crucifixo Reto Unilateral com Halter",
+      "musculo": "PEITO",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite no banco e estabilize o corpo com a mão livre. Abra um braço em arco e feche sobre o peito.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.15,
+        0.22,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.72
+      ],
+      "imagens": [
+        "One-Arm_Flat_Bench_Dumbbell_Flye/0.jpg",
+        "One-Arm_Flat_Bench_Dumbbell_Flye/1.jpg"
+      ],
+      "videoQuery": "como fazer crucifixo reto unilateral com halter na academia"
+    },
+    {
+      "id": "One-Arm_High-Pulley_Cable_Side_Bends",
+      "nome": "Flexão Lateral na Polia Alta Unilateral",
+      "musculo": "ABDOMEN",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Fique de lado para a polia alta e segure o cabo. Incline o tronco lateralmente sem puxar com o braço.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.2,
+        0.33,
+        0.46,
+        0.6,
+        0.75,
+        0.92,
+        1.15
+      ],
+      "imagens": [
+        "One-Arm_High-Pulley_Cable_Side_Bends/0.jpg",
+        "One-Arm_High-Pulley_Cable_Side_Bends/1.jpg"
+      ],
+      "videoQuery": "como fazer flexão lateral na polia alta unilateral na academia"
+    },
+    {
+      "id": "One-Arm_Incline_Lateral_Raise",
+      "nome": "Elevação Lateral Inclinada Unilateral",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie-se em um banco inclinado. Eleve o halter para o lado mantendo leve flexão no cotovelo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "One-Arm_Incline_Lateral_Raise/0.jpg",
+        "One-Arm_Incline_Lateral_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação lateral inclinada unilateral na academia"
+    },
+    {
+      "id": "One-Arm_Long_Bar_Row",
+      "nome": "Remada Cavalinho Unilateral",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Fixe uma ponta da barra e segure a outra com uma mão. Puxe em direção à cintura sem rodar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.55,
+        0.75,
+        0.95,
+        1.15,
+        1.4,
+        1.6,
+        1.85
+      ],
+      "imagens": [
+        "One-Arm_Long_Bar_Row/0.jpg",
+        "One-Arm_Long_Bar_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada cavalinho unilateral na academia"
+    },
+    {
+      "id": "One_Arm_Pronated_Dumbbell_Triceps_Extension",
+      "nome": "Extensão de Tríceps Unilateral com Pegada Pronada",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure um halter com a palma voltada para baixo. Flexione e estenda o cotovelo sem mover o ombro.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.18,
+        0.25,
+        0.33,
+        0.42,
+        0.52,
+        0.65
+      ],
+      "imagens": [
+        "One_Arm_Pronated_Dumbbell_Triceps_Extension/0.jpg",
+        "One_Arm_Pronated_Dumbbell_Triceps_Extension/1.jpg"
+      ],
+      "videoQuery": "como fazer extensão de tríceps unilateral com pegada pronada na academia"
+    },
+    {
+      "id": "One_Arm_Supinated_Dumbbell_Triceps_Extension",
+      "nome": "Extensão de Tríceps Unilateral com Pegada Supinada",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure um halter com a palma voltada para cima. Estenda o cotovelo mantendo o braço estável.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.18,
+        0.25,
+        0.33,
+        0.42,
+        0.52,
+        0.65
+      ],
+      "imagens": [
+        "One_Arm_Supinated_Dumbbell_Triceps_Extension/0.jpg",
+        "One_Arm_Supinated_Dumbbell_Triceps_Extension/1.jpg"
+      ],
+      "videoQuery": "como fazer extensão de tríceps unilateral com pegada supinada na academia"
+    },
+    {
+      "id": "Platform_Hamstring_Slides",
+      "nome": "Flexão de Posterior com Deslize",
+      "musculo": "POSTERIOR",
+      "musculosSecundarios": [
+        "GLUTEOS"
+      ],
+      "equipamento": "Acessório",
+      "local": "ACADEMIA",
+      "modo": "REPS",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Deite de costas com os calcanhares sobre superfícies deslizantes. Eleve o quadril e puxe os calcanhares em direção ao corpo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        2,
+        5,
+        8,
+        12,
+        17,
+        23,
+        30
+      ],
+      "imagens": [
+        "Platform_Hamstring_Slides/0.jpg",
+        "Platform_Hamstring_Slides/1.jpg"
+      ],
+      "videoQuery": "como fazer flexão de posterior com deslize na academia"
+    },
+    {
+      "id": "Reverse_Barbell_Preacher_Curls",
+      "nome": "Rosca Scott Inversa com Barra W",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO"
+      ],
+      "equipamento": "Barra W",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie os braços no banco Scott e segure a barra com palmas para baixo. Flexione os cotovelos sem levantar os braços do apoio.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.85
+      ],
+      "imagens": [
+        "Reverse_Barbell_Preacher_Curls/0.jpg",
+        "Reverse_Barbell_Preacher_Curls/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca scott inversa com barra w na academia"
+    },
+    {
+      "id": "Reverse_Flyes_With_External_Rotation",
+      "nome": "Crucifixo Inverso com Rotação Externa",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Com halteres leves e tronco inclinado, abra os braços e faça leve rotação externa no topo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Reverse_Flyes_With_External_Rotation/0.jpg",
+        "Reverse_Flyes_With_External_Rotation/1.jpg"
+      ],
+      "videoQuery": "como fazer crucifixo inverso com rotação externa na academia"
+    },
+    {
+      "id": "Rope_Straight-Arm_Pulldown",
+      "nome": "Pulldown com Corda e Braços Estendidos",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure a corda na polia alta e afaste-se um pouco. Puxe até as coxas mantendo os cotovelos quase estendidos.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Rope_Straight-Arm_Pulldown/0.jpg",
+        "Rope_Straight-Arm_Pulldown/1.jpg"
+      ],
+      "videoQuery": "como fazer pulldown com corda e braços estendidos na academia"
+    },
+    {
+      "id": "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension",
+      "nome": "Coice de Tríceps Sentado Unilateral",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente-se e incline o tronco à frente. Estenda um cotovelo para trás sem mover o braço superior.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.18,
+        0.25,
+        0.33,
+        0.42,
+        0.52,
+        0.65
+      ],
+      "imagens": [
+        "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/0.jpg",
+        "Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension/1.jpg"
+      ],
+      "videoQuery": "como fazer coice de tríceps sentado unilateral na academia"
+    },
+    {
+      "id": "Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl",
+      "nome": "Rosca de Punho Inversa Unilateral Sentado",
+      "musculo": "ANTEBRACO",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie o antebraço na coxa com a palma para baixo. Eleve o dorso da mão sem tirar o antebraço do apoio.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.08,
+        0.12,
+        0.18,
+        0.25,
+        0.32,
+        0.4,
+        0.5
+      ],
+      "imagens": [
+        "Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl/0.jpg",
+        "Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca de punho inversa unilateral sentado na academia"
+    },
+    {
+      "id": "Shotgun_Row",
+      "nome": "Remada Unilateral na Polia Baixa em Pé",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Fique de frente para a polia baixa. Puxe o cabo em direção à cintura sem girar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Shotgun_Row/0.jpg",
+        "Shotgun_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada unilateral na polia baixa em pé na academia"
+    },
+    {
+      "id": "Side_Laterals_to_Front_Raise",
+      "nome": "Elevação Lateral seguida de Frontal",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "COSTAS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Eleve halteres leves para os lados, retorne e faça elevação frontal. Mantenha o tronco estável em ambas as fases.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.22,
+        0.28,
+        0.35
+      ],
+      "imagens": [
+        "Side_Laterals_to_Front_Raise/0.jpg",
+        "Side_Laterals_to_Front_Raise/1.jpg"
+      ],
+      "videoQuery": "como fazer elevação lateral seguida de frontal na academia"
+    },
+    {
+      "id": "Smith_Machine_Behind_the_Back_Shrug",
+      "nome": "Encolhimento no Smith atrás do Corpo",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "OMBROS"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Fique à frente da barra guiada e segure-a atrás do quadril. Eleve os ombros e desça sem impulso.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Smith_Machine_Behind_the_Back_Shrug/0.jpg",
+        "Smith_Machine_Behind_the_Back_Shrug/1.jpg"
+      ],
+      "videoQuery": "como fazer encolhimento no smith atrás do corpo na academia"
+    },
+    {
+      "id": "Smith_Machine_One-Arm_Upright_Row",
+      "nome": "Remada Alta Unilateral no Smith",
+      "musculo": "OMBROS",
+      "musculosSecundarios": [
+        "BICEPS",
+        "COSTAS"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure a barra guiada com uma mão. Puxe até o peito com o cotovelo apontando para o lado.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.4,
+        0.55,
+        0.7,
+        0.9,
+        1.05,
+        1.25,
+        1.45
+      ],
+      "imagens": [
+        "Smith_Machine_One-Arm_Upright_Row/0.jpg",
+        "Smith_Machine_One-Arm_Upright_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada alta unilateral no smith na academia"
+    },
+    {
+      "id": "Smith_Machine_Pistol_Squat",
+      "nome": "Agachamento Unilateral no Smith",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Ajuste a barra guiada para equilíbrio. Agache sobre uma perna com amplitude que consiga controlar.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.495,
+        0.66,
+        0.825,
+        0.99,
+        1.21,
+        1.43,
+        1.65
+      ],
+      "imagens": [
+        "Smith_Machine_Pistol_Squat/0.jpg",
+        "Smith_Machine_Pistol_Squat/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento unilateral no smith na academia"
+    },
+    {
+      "id": "Smith_Single-Leg_Split_Squat",
+      "nome": "Afundo Búlgaro no Smith",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deixe um pé à frente e o outro apoiado atrás. Flexione a perna da frente sob a barra guiada e retorne.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.495,
+        0.66,
+        0.825,
+        0.99,
+        1.21,
+        1.43,
+        1.65
+      ],
+      "imagens": [
+        "Smith_Single-Leg_Split_Squat/0.jpg",
+        "Smith_Single-Leg_Split_Squat/1.jpg"
+      ],
+      "videoQuery": "como fazer afundo búlgaro no smith na academia"
+    },
+    {
+      "id": "Standing_Dumbbell_Reverse_Curl",
+      "nome": "Rosca Inversa com Halteres em Pé",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Segure halteres com palmas voltadas para baixo. Flexione os cotovelos sem balançar o corpo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Standing_Dumbbell_Reverse_Curl/0.jpg",
+        "Standing_Dumbbell_Reverse_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca inversa com halteres em pé na academia"
+    },
+    {
+      "id": "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench",
+      "nome": "Rosca Concentrada no Banco Inclinado",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie o braço no encosto inclinado do banco. Flexione o cotovelo sem tirar o braço do apoio.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/0.jpg",
+        "Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca concentrada no banco inclinado na academia"
+    },
+    {
+      "id": "Standing_One-Arm_Dumbbell_Triceps_Extension",
+      "nome": "Tríceps Francês Unilateral em Pé",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [
+        "PEITO",
+        "OMBROS"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Leve o halter acima da cabeça. Flexione o cotovelo para baixar atrás da cabeça e estenda.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.12,
+        0.18,
+        0.25,
+        0.33,
+        0.42,
+        0.52,
+        0.65
+      ],
+      "imagens": [
+        "Standing_One-Arm_Dumbbell_Triceps_Extension/0.jpg",
+        "Standing_One-Arm_Dumbbell_Triceps_Extension/1.jpg"
+      ],
+      "videoQuery": "como fazer tríceps francês unilateral em pé na academia"
+    },
+    {
+      "id": "Standing_Rope_Crunch",
+      "nome": "Abdominal em Pé na Polia com Corda",
+      "musculo": "ABDOMEN",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Ajuste a corda na polia alta e segure-a junto à cabeça. Flexione o tronco contraindo o abdômen sem puxar com os braços.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.2,
+        0.33,
+        0.46,
+        0.6,
+        0.75,
+        0.92,
+        1.15
+      ],
+      "imagens": [
+        "Standing_Rope_Crunch/0.jpg",
+        "Standing_Rope_Crunch/1.jpg"
+      ],
+      "videoQuery": "como fazer abdominal em pé na polia com corda na academia"
+    },
+    {
+      "id": "Suspended_Row",
+      "nome": "Remada em Fitas de Suspensão",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "BICEPS"
+      ],
+      "equipamento": "Acessório",
+      "local": "ACADEMIA",
+      "modo": "REPS",
+      "dificuldade": 1.0,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Incline o corpo para trás segurando as fitas. Puxe o peito para as mãos mantendo tronco e quadril alinhados.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        4,
+        9,
+        15,
+        22,
+        30,
+        40,
+        52
+      ],
+      "imagens": [
+        "Suspended_Row/0.jpg",
+        "Suspended_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada em fitas de suspensão na academia"
+    },
+    {
+      "id": "Thigh_Abductor",
+      "nome": "Cadeira Abdutora",
+      "musculo": "GLUTEOS",
+      "musculosSecundarios": [],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente-se com as pernas apoiadas nos suportes da máquina. Afaste as coxas sem tirar o quadril do banco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.3,
+        0.5,
+        0.7,
+        0.95,
+        1.2,
+        1.5,
+        1.85
+      ],
+      "imagens": [
+        "Thigh_Abductor/0.jpg",
+        "Thigh_Abductor/1.jpg"
+      ],
+      "videoQuery": "como fazer cadeira abdutora na academia"
+    },
+    {
+      "id": "Thigh_Adductor",
+      "nome": "Cadeira Adutora",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Máquina",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Sente-se com as pernas apoiadas nos suportes da máquina. Aproxime as coxas sem balançar o tronco.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.3,
+        0.5,
+        0.7,
+        0.95,
+        1.2,
+        1.5,
+        1.85
+      ],
+      "imagens": [
+        "Thigh_Adductor/0.jpg",
+        "Thigh_Adductor/1.jpg"
+      ],
+      "videoQuery": "como fazer cadeira adutora na academia"
+    },
+    {
+      "id": "Triceps_Overhead_Extension_with_Rope",
+      "nome": "Tríceps Francês na Polia Alta com Corda",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.0,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Fique de costas para a polia alta e leve a corda acima da cabeça. Estenda os cotovelos sem mover os ombros.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.2,
+        0.3,
+        0.42,
+        0.55,
+        0.68,
+        0.82,
+        1
+      ],
+      "imagens": [
+        "Triceps_Overhead_Extension_with_Rope/0.jpg",
+        "Triceps_Overhead_Extension_with_Rope/1.jpg"
+      ],
+      "videoQuery": "como fazer tríceps francês na polia alta com corda na academia"
+    },
+    {
+      "id": "Upright_Cable_Row",
+      "nome": "Remada Alta na Polia Baixa",
+      "musculo": "COSTAS",
+      "musculosSecundarios": [
+        "OMBROS"
+      ],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Segure a barra da polia baixa diante das coxas. Puxe até a altura do peito com os cotovelos para os lados.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.7,
+        0.9,
+        1.1,
+        1.3,
+        1.5,
+        1.75
+      ],
+      "imagens": [
+        "Upright_Cable_Row/0.jpg",
+        "Upright_Cable_Row/1.jpg"
+      ],
+      "videoQuery": "como fazer remada alta na polia baixa na academia"
+    },
+    {
+      "id": "Wide-Grip_Decline_Barbell_Bench_Press",
+      "nome": "Supino Declinado com Pegada Aberta",
+      "musculo": "PEITO",
+      "musculosSecundarios": [
+        "OMBROS",
+        "TRICEPS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Deite no banco declinado e segure a barra com pegada ampla. Desça ao peito e empurre com controle.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2
+      ],
+      "imagens": [
+        "Wide-Grip_Decline_Barbell_Bench_Press/0.jpg",
+        "Wide-Grip_Decline_Barbell_Bench_Press/1.jpg"
+      ],
+      "videoQuery": "como fazer supino declinado com pegada aberta na academia"
+    },
+    {
+      "id": "Wide_Stance_Barbell_Squat",
+      "nome": "Agachamento com Barra e Base Aberta",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR",
+        "COSTAS"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Afaste os pés além da largura dos ombros. Agache mantendo os joelhos alinhados aos pés e suba.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Wide_Stance_Barbell_Squat/0.jpg",
+        "Wide_Stance_Barbell_Squat/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento com barra e base aberta na academia"
+    },
+    {
+      "id": "Zercher_Squats",
+      "nome": "Agachamento Zercher",
+      "musculo": "QUADRICEPS",
+      "musculosSecundarios": [
+        "PANTURRILHA",
+        "GLUTEOS",
+        "POSTERIOR"
+      ],
+      "equipamento": "Barra",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.8,
+      "mecanica": "COMPOSTO",
+      "instrucoes": [
+        "Apoie a barra na dobra dos cotovelos. Agache com o tronco firme e suba sem perder a postura.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.6,
+        0.8,
+        1,
+        1.2,
+        1.5,
+        1.8,
+        2.05
+      ],
+      "imagens": [
+        "Zercher_Squats/0.jpg",
+        "Zercher_Squats/1.jpg"
+      ],
+      "videoQuery": "como fazer agachamento zercher na academia"
+    },
+    {
+      "id": "Zottman_Preacher_Curl",
+      "nome": "Rosca Zottman no Banco Scott",
+      "musculo": "BICEPS",
+      "musculosSecundarios": [
+        "ANTEBRACO"
+      ],
+      "equipamento": "Halteres",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.4,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Apoie os braços no banco Scott e segure os halteres. Suba com palmas para cima, gire os punhos e desça com palmas para baixo.",
+        "Volte à posição inicial com controle e repita sem perder a postura."
+      ],
+      "dica": "Use uma carga que permita controlar toda a amplitude; ajuste o aparelho à sua altura.",
+      "benchmarks": [
+        0.09,
+        0.13,
+        0.18,
+        0.23,
+        0.27,
+        0.32,
+        0.38
+      ],
+      "imagens": [
+        "Zottman_Preacher_Curl/0.jpg",
+        "Zottman_Preacher_Curl/1.jpg"
+      ],
+      "videoQuery": "como fazer rosca zottman no banco scott na academia"
+    },
+    {
+      "id": "Remnant_Standing_Cable_Skullcrusher",
+      "nome": "Tríceps Testa na Polia Alta em Pé",
+      "musculo": "TRICEPS",
+      "musculosSecundarios": [],
+      "equipamento": "Polia",
+      "local": "ACADEMIA",
+      "modo": "CARGA",
+      "dificuldade": 1.2,
+      "mecanica": "ISOLADO",
+      "instrucoes": [
+        "Ajuste a polia alta, segure a barra ou corda e dê um passo à frente. Incline levemente o tronco, com os cotovelos apontando para a frente.",
+        "Estenda os cotovelos levando as mãos para a frente sem mover os ombros. Volte devagar até perto da testa."
+      ],
+      "dica": "Mantenha os cotovelos na mesma altura; reduza a carga se precisar usar o tronco para empurrar.",
+      "benchmarks": [
+        0.2,
+        0.3,
+        0.42,
+        0.55,
+        0.68,
+        0.82,
+        1
+      ],
+      "imagens": [],
+      "videoQuery": "tríceps testa na polia alta em pé execução"
+    }
+  ]
+}

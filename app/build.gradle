@@ -1,0 +1,186 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.ksp)
+}
+
+// Assinatura de release: NUNCA no repositório. Lida de `keystore.properties` (ignorado pelo git)
+// ou de variáveis de ambiente. Sem nenhuma das duas fontes o release compila sem assinatura
+// (APK/AAB "unsigned"), o que basta para análise local e impede instalação acidental.
+def keystoreProps = new Properties()
+def keystorePropsFile = rootProject.file('keystore.properties')
+if (keystorePropsFile.exists()) {
+    keystorePropsFile.withInputStream { keystoreProps.load(it) }
+}
+def signingValue = { String prop, String env ->
+    def fromFile = keystoreProps.getProperty(prop)
+    if (fromFile != null && !fromFile.trim().isEmpty()) return fromFile.trim()
+    def fromEnv = System.getenv(env)
+    return (fromEnv != null && !fromEnv.trim().isEmpty()) ? fromEnv.trim() : null
+}
+def releaseStorePath = signingValue('storeFile', 'REMNANT_KEYSTORE_PATH')
+def releaseStorePassword = signingValue('storePassword', 'REMNANT_KEYSTORE_PASSWORD')
+def releaseKeyAlias = signingValue('keyAlias', 'REMNANT_KEY_ALIAS')
+def releaseKeyPassword = signingValue('keyPassword', 'REMNANT_KEY_PASSWORD')
+def hasReleaseSigning = releaseStorePath != null && releaseStorePassword != null && releaseKeyAlias != null && releaseKeyPassword != null
+
+// Endpoint HTTPS opcional do REM (docs/REM_PROXY.md). Vazio = modo BYOK para testes com uma
+// chave Gemini guardada só no aparelho. Em produção, a Edge Function guarda a chave no servidor.
+def mentorProxyUrl = (project.findProperty('remnantMentorProxyUrl') ?: System.getenv('REMNANT_MENTOR_PROXY_URL') ?: '').toString().trim()
+if (!mentorProxyUrl.isEmpty() && !mentorProxyUrl.startsWith('https://')) {
+    throw new IllegalStateException("REMNANT_MENTOR_PROXY_URL tem de começar por https://")
+}
+def productionReleaseRequested = gradle.startParameter.taskNames.any {
+    it.toLowerCase(Locale.ROOT).contains('productionrelease')
+}
+if (productionReleaseRequested && mentorProxyUrl.isEmpty()) {
+    throw new IllegalStateException('A release de produção exige REMNANT_MENTOR_PROXY_URL. O REM não pode pedir chave Gemini ao usuário final.')
+}
+
+android {
+    namespace 'com.liferpg'
+    compileSdk 36
+
+    flavorDimensions += 'distribution'
+
+    defaultConfig {
+        // Identidade PERMANENTE da reconstrução. Diferente do Remnant original
+        // (com.aistudio.liferpg.xrkyzd) para que os dois coexistam no mesmo aparelho.
+        applicationId 'com.liferpg.remnant'
+        minSdk 26
+        targetSdk 36
+        versionCode 44
+        versionName '2.1-alpha42'
+        resValue 'string', 'app_name', 'REMNANT'
+        buildConfigField 'String', 'MENTOR_PROXY_URL', "\"${mentorProxyUrl.replace('\\', '\\\\').replace('"', '\\"')}\""
+    }
+
+    productFlavors {
+        preview {
+            dimension 'distribution'
+            // Separate package for the public preview.
+            applicationId 'com.jotadev21.remnant.preview'
+        }
+        production {
+            dimension 'distribution'
+            applicationId 'com.liferpg.remnant'
+        }
+    }
+
+    signingConfigs {
+        if (hasReleaseSigning) {
+            release {
+                storeFile file(releaseStorePath)
+                storePassword releaseStorePassword
+                keyAlias releaseKeyAlias
+                keyPassword releaseKeyPassword
+                enableV1Signing false
+                enableV2Signing true
+                enableV3Signing true
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            resValue 'string', 'app_name', 'Remnant Preview'
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (hasReleaseSigning) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+
+    // Só existem as duas combinações que fazem sentido: PreviewDebug para desenvolvimento e
+    // ProductionRelease para distribuição. Isso também impede instalar uma release por engano
+    // sobre o pacote Preview ou publicar uma build de produção depurável.
+    variantFilter { variant ->
+        def flavors = variant.flavors*.name
+        if ((variant.buildType.name == 'release' && flavors.contains('preview')) ||
+            (variant.buildType.name == 'debug' && flavors.contains('production'))) {
+            variant.ignore = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions { jvmTarget = '17' }
+    buildFeatures {
+        compose true
+        resValues true
+        buildConfig true
+    }
+    packaging {
+        resources { excludes += '/META-INF/{AL2.0,LGPL2.1}' }
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+            returnDefaultValues = true
+        }
+    }
+}
+
+ksp { arg('room.schemaLocation', "$projectDir/schemas") }
+
+dependencies {
+    implementation 'org.maplibre.gl:android-sdk:13.5.2'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'com.squareup.okhttp3:mockwebserver:4.12.0'
+    testImplementation 'org.json:json:20240303'
+    testImplementation 'org.robolectric:robolectric:4.14.1'
+    testImplementation 'androidx.test:core:1.6.1'
+    testImplementation "androidx.compose.ui:ui-test-junit4:${libs.versions.composeUi.get()}"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:${libs.versions.composeUi.get()}"
+    testImplementation libs.room.testing
+    testImplementation libs.coroutines.test
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.activity.compose
+    implementation libs.androidx.exifinterface
+    implementation libs.androidx.profileinstaller
+    implementation libs.androidx.lifecycle.runtime.ktx
+    implementation libs.androidx.lifecycle.runtime.compose
+    implementation libs.androidx.lifecycle.viewmodel.compose
+    implementation libs.androidx.lifecycle.process
+    implementation libs.androidx.work.runtime.ktx
+    implementation libs.compose.ui
+    implementation libs.compose.ui.graphics
+    implementation libs.compose.ui.tooling.preview
+    implementation libs.compose.foundation
+    implementation libs.compose.animation
+    implementation libs.compose.material3
+    implementation libs.compose.material.icons.ext
+    debugImplementation libs.compose.ui.tooling
+    implementation libs.androidx.navigation.compose
+    implementation libs.room.runtime
+    implementation libs.room.ktx
+    implementation libs.sqlite
+    ksp libs.room.compiler
+    implementation libs.health.connect
+    implementation libs.camera.core
+    implementation libs.camera.camera2
+    implementation libs.camera.lifecycle
+    implementation libs.camera.view
+    implementation libs.camera.video
+    implementation libs.mlkit.barcode
+    implementation libs.play.services.mlkit.barcode
+    implementation 'com.google.android.gms:play-services-code-scanner:16.1.0'
+    implementation 'com.google.mlkit:pose-detection-accurate:18.0.0-beta5'
+    implementation libs.coroutines.android
+    implementation libs.coroutines.guava
+    implementation libs.okhttp
+    implementation libs.retrofit
+    implementation libs.retrofit.moshi
+    implementation libs.moshi
+    ksp libs.moshi.codegen
+    implementation libs.coil.compose
+}

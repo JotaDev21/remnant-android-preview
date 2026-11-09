@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Backup automático (Android ≤ 11, key/value + auto backup).
+  Fica de fora tudo o que é credencial, sessão remota, estado transitório ou foto corporal:
+  - supabase_auth.xml: access/refresh token da sessão Supabase (revalidada no aparelho novo).
+  - active_workout_state.xml: treino em andamento; só faz sentido no aparelho onde começou.
+  - gemini.key e mentor.token vivem em noBackupFilesDir e nunca entram no backup.
+  - progress_photos/: fotos corporais privadas; ficam apenas no aparelho.
+  - exports/ (cache): ficheiros temporários de partilha.
+  O banco Room (ironquest.db) e as preferências do app continuam no backup.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="supabase_auth.xml" />
+    <exclude domain="sharedpref" path="auth_pkce.xml" />
+    <exclude domain="sharedpref" path="circle_comment_drafts.xml" />
+    <exclude domain="sharedpref" path="active_workout_state.xml" />
+    <exclude domain="file" path="progress_photos" />
+    <exclude domain="file" path="gemini.key" />
+    <exclude domain="file" path="mentor.token" />
+    <exclude domain="database" path="ironquest.db-wal" />
+    <exclude domain="database" path="ironquest.db-shm" />
+</full-backup-content>
